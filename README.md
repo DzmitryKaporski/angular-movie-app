@@ -1,3 +1,5 @@
+Deploy: https://final-project_angular13.surge.sh/
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Angular movie-app was generated with:
