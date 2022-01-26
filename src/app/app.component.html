@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>app</title>
+  </head>
+
+  <body>
+    <app-header></app-header>
+    <div class="loading" *ngIf="loading">
+      <mat-progress-bar
+        [color]="color"
+        [mode]="mode"
+        [value]="value"
+      ></mat-progress-bar>
+    </div>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+  </body>
+</html>

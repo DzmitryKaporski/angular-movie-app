@@ -1,0 +1,10 @@
+{
+  "hints": {
+    "disown-opener": [
+      "error",
+      {
+        "includeSameOriginURLs": true
+      }
+    ]
+  }
+}
