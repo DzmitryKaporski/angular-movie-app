@@ -12,22 +12,19 @@ import { PipeModule } from 'src/app/pipe/pipe.module';
 
 
 @NgModule({
-  declarations: [
-    TvShowDetailsComponent,
-    AppTvDialogComponent
-  ],
-  entryComponents: [
-    AppTvDialogComponent
-  ],
-  imports: [
-    CommonModule,
-    TvShowDetailsRoutingModule,
-    PipeModule,
-    TabViewModule,
-    MatTabsModule,
-    MatDialogModule,
-    MatIconModule,
-    CarouselModule
-  ]
+    declarations: [
+        TvShowDetailsComponent,
+        AppTvDialogComponent
+    ],
+    imports: [
+        CommonModule,
+        TvShowDetailsRoutingModule,
+        PipeModule,
+        TabViewModule,
+        MatTabsModule,
+        MatDialogModule,
+        MatIconModule,
+        CarouselModule
+    ]
 })
 export class TvShowDetailsModule { }

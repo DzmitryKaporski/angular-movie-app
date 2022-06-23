@@ -10,22 +10,19 @@ import { CarouselModule } from 'primeng/carousel';
 import { PipeModule } from 'src/app/pipe/pipe.module';
 
 @NgModule({
-  declarations: [
-    MovieDetailsComponent,
-    AppMovieDialogComponent
-  ],
-  entryComponents: [
-    AppMovieDialogComponent
-  ],
-  imports: [
-    CommonModule,
-    MovieDetailsRoutingModule,
-    PipeModule,
-    MatTabsModule,
-    MatDialogModule,
-    MatIconModule,
-    CarouselModule
-  ],
+    declarations: [
+        MovieDetailsComponent,
+        AppMovieDialogComponent
+    ],
+    imports: [
+        CommonModule,
+        MovieDetailsRoutingModule,
+        PipeModule,
+        MatTabsModule,
+        MatDialogModule,
+        MatIconModule,
+        CarouselModule
+    ]
 })
 
 export class MovieDetailsModule { }
