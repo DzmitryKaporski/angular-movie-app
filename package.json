@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
-    "ngx-skeleton-loader": "^4.0.0",
+    "ngx-skeleton-loader": "^7.0.0",
     "primeicons": "^5.0.0",
     "primeng": "^15.4.1",
     "primeng-lts": "^12.2.4",
