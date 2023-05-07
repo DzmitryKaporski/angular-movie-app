@@ -2,19 +2,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from 'primeng/carousel';
-import { SidebarModule } from 'primeng/sidebar';
-import { HeaderComponent } from './components/includes/header/header.component';
-import { SliderComponent } from './components/slider/slider.component';
-import { HomeComponent } from './components/home/home.component';
-import { FooterComponent } from './components/includes/footer/footer.component';
-import { PipeModule } from './pipe/pipe.module';
 import { MatLegacyProgressSpinnerModule as MatProgressSpinnerModule } from '@angular/material/legacy-progress-spinner';
 import { MatLegacyProgressBarModule as MatProgressBarModule } from '@angular/material/legacy-progress-bar';
+
+import { CarouselModule } from 'primeng/carousel';
+import { SidebarModule } from 'primeng/sidebar';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+
+import { PipeModule } from './pipe/pipe.module';
+import { HomeComponent } from './components/home/home.component';
+import { SliderComponent } from './components/slider/slider.component';
 import { SkeletonModule } from './shared/skeleton/skeleton.module';
+import { FooterComponent } from './components/includes/footer/footer.component';
+import { HeaderComponent } from './components/includes/header/header.component';
 
 @NgModule({
   declarations: [

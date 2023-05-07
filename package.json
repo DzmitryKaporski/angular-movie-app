@@ -23,7 +23,7 @@
     "@angular/router": "^16.0.0",
     "ngx-skeleton-loader": "^4.0.0",
     "primeicons": "^5.0.0",
-    "primeng": "^9.0.0-rc.2",
+    "primeng": "^15.4.1",
     "primeng-lts": "^12.2.4",
     "rxjs": "~7.5.5",
     "tslib": "^2.3.1",
