@@ -12,8 +12,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/includes/footer/footer.component';
 import { PipeModule } from './pipe/pipe.module';
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatLegacyProgressSpinnerModule as MatProgressSpinnerModule } from '@angular/material/legacy-progress-spinner';
+import { MatLegacyProgressBarModule as MatProgressBarModule } from '@angular/material/legacy-progress-bar';
 import { SkeletonModule } from './shared/skeleton/skeleton.module';
 
 @NgModule({

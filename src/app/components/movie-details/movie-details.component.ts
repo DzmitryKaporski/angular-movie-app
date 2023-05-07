@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MoviesService } from 'src/app/service/movies.service';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { AppMovieDialogComponent } from '../movie-details/app-movie-dialog/app-movie-dialog.component';
 
 @Component({
