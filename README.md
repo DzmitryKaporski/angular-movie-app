@@ -4,10 +4,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Angular movie-app was generated with:
 
-- Angular CLI version 14.0.2
-- Angular 14.0.2
-- Angular Material 14.0.2
-- Rxjs 7.5.5
+- angular CLI version 16.0.0
+- angular 16.0.0
+- rxjs 7.5.7
+- typescript 4.9.5
 - PrimeNg Library -> https://www.primefaces.org/primeng/#/
 - The Movie DB get Your own api key -> https://www.themoviedb.org
 
